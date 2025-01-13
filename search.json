@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Methods",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2\n\n\n\n# library(ggplot2)\nlibrary(tidyverse)\nstarwars %&gt;% \n  filter(mass &lt; 500) %&gt;% \n  ggplot() +\n  geom_point(aes(height, mass))"
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2\n\n\n\nlibrary(tidyverse)\nlibrary(plotly)\nchart &lt;- starwars %&gt;% \n  filter(mass &lt; 500) %&gt;% \n  ggplot() +\n  geom_point(aes(height, mass)) \n\nggplotly(chart)"
   },
   {
     "objectID": "about.html",

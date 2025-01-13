@@ -9,3 +9,14 @@ To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 ```{r}
 1 + 1
 ```
+
+```{r}
+#| message: false
+#| warning: false
+# library(ggplot2)
+library(tidyverse)
+starwars %>% 
+  filter(mass < 500) %>% 
+  ggplot() +
+  geom_point(aes(height, mass)) 
+```

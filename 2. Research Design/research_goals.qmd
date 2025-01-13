@@ -1,0 +1,81 @@
+---
+title: "Developing Research Goals"
+---
+
+Transforming business objectives and product strategies into clear, actionable research questions and hypotheses that drive meaningful user research outcomes.
+
+This is an early step in bridging the gap between business or program objectives and research activities. At this stage, we transform high-level organizational goals into specific, measurable research objectives and testable hypotheses. It employs a structured approach to ensure research efforts directly address business needs while maintaining focus on user-centered outcomes.
+
+The method draws from both scientific methodology and business strategy frameworks, incorporating elements of OKR (Objectives and Key Results) planning and hypothesis-driven development. It emphasizes collaborative goal-setting that aligns stakeholder needs with research capabilities and resources.
+
+Research Goal Development typically occurs at the beginning of the research planning process but can be revisited throughout the project life cycle as new insights emerge or business priorities shift.
+
+Typical Activities:
+
+-   Alignment between business objectives and research goals
+
+-   SMART criteria application (Specific, Measurable, Achievable, Relevant, Time-bound)
+
+-   Hypothesis-driven approach to goal formation
+
+-   Iterative refinement process
+
+-   Stakeholder consensus building
+
+-   Clear success metrics definition
+
+### Variations
+
+-   Quick Goals - Rapid goal-setting for time-sensitive research
+
+-   Strategic Goals - Long-term research agenda development
+
+-   Hypothesis Mapping - Focus on assumption testing and validation
+
+-   Impact Mapping - Goals linked directly to business metrics
+
+### Resources Required
+
+-   Team Composition
+
+    -   Research lead
+
+    -   Product stakeholders
+
+    -   Business stakeholders
+
+    -   Technical stakeholders (as needed)
+
+-   Tools and Templates
+
+    -   Goal framework template
+
+    -   Hypothesis statement template
+
+    -   Research question matrix
+
+    -   Impact assessment worksheet
+
+### When to Use
+
+-   Starting new research initiatives
+
+-   Quarterly research planning
+
+-   Product strategy shifts
+
+-   New feature development
+
+-   Addressing identified knowledge gaps
+
+-   Validating business assumptions
+
+### Planning Questions To Be Answered
+
+-   What are our critical knowledge gaps?
+
+-   Which assumptions need validation?
+
+-   How will research impact decision-making?
+
+-   What metrics indicate success?

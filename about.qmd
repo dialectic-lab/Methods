@@ -2,8 +2,19 @@
 title: "About"
 ---
 
-About this site
+> This website was created and maintained by [Chandni](https://chandni.xyz/), a design researcher living in New York.
 
-```{r}
-1 + 1
-```
+## Background
+
+This project has had multiple starting points, and I'm bringing them together in hope of creating something useful.
+
+1.  Design process documentation at Aspire:\
+    As a design manager in a growing product team, I helped create process documentation when we felt the need to establish some processes for sanity. It's not easy to describe a design process, but we could set benchmarks, standards, and created a guide to help set clear expectations for team members. The intended audience for this document was the entire product team, from leadership to product designers, project managers and developers. We clarified hand-off requirements, created templates for gathering requirements and insights, and helped create a project management set up. This worked at a time when we had some clarity on the roadmap for a few quarters ahead of us, and our goal was to build the highest quality experiences possible. It was a living document meant to evolve with the team and product.
+2.  My teaching experience:\
+    Although I never taught research methods as a standalone course, I used an earlier skeletal version of this website as a supporting document for students in my design studios. It started as a glossary of terms, then I added more customised explainers, case studies, and examples. As the list grew, it needed to be organised into something more meaningful.
+3.  HCI research:\
+    My own academic training comes from a research space that is best described as technical HCI, with strong influence of evidence-based design. It was a combination of generic methods applicable to any design discipline, as well as methods specific to the context of human-computer interaction design.
+4.  Research in the social sciences:\
+    I had a recent refresher in research methods from the course Data, Economics and Design of Policy, offered by MIT's Department of Economics through the MITx platform. I completed a set of courses in the last quarter of 2024 and now have an even broader set of interests and skills. This website does not cover economics and policy research in general, but I have included concepts from Randomised Control Trials that build on prevailing practices in RCT in design.
+
+To create this website, I had to trim the scope a little. I might be able to produce variations of this resource for different domains and applications, but this first version is designed for product researchers, or user researches on product teams.

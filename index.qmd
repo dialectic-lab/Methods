@@ -1,24 +1,47 @@
 ---
-title: "Methods"
+title: "User Research Methods"
+format:
+  html: 
+    grid:
+      sidebar-width: 300px
+      body-width: 900px
+      margin-width: 300px
+      gutter-width: 1.5rem
+listing: default
 ---
 
-This is a Quarto website.
+Welcome to Research Methods!
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+This is a repository of tools, techniques, approaches used in the pursuit of understanding users from the point of view of designing appropriate technology. This site could be the place to discover different means to achieving your research goals, or consider the pros and cons of possible approaches. Where relevant, I've also included lots of background about how each method was pioneered— I believe this adds valuable context to the practitioner in being able to adapt methods to their purposes. It's also in appreciation of inter-disciplinary thinking and a nod to the contributions of researchers in fields such as psychology, medicine, ergonomics, and cognitive sciences.
 
-```{r}
-1 + 1
+## Organisation
+
+Projects and teams may be set up in unique ways, but for the purpose of organising the topics on this website, I use the following representation of a typical research cycle.
+
+```{mermaid}
+---
+title: Research Lifecycle
+---
+graph TB
+  A(Discovery) --> B(Research Design)
+  B --> C(Data Collection)
+  C --> D(Analysis)
+  D --> E(Synthesis/Insights)
+  E --> F(Product Strategy)
 ```
 
-```{r}
-#| message: false
-#| warning: false
-library(tidyverse)
-library(plotly)
-chart <- starwars %>% 
-  filter(mass < 500) %>% 
-  ggplot() +
-  geom_point(aes(height, mass)) 
+## Who is this site for?
 
-ggplotly(chart)
-```
+To summarize, this compilation of research methods is for:
+
+-   product teams
+
+-   user researchers on product teams
+
+-   better cross-functional communication
+
+-   students of product design and management
+
+-   and educators, to use in support of their design curricula
+
+## Methods

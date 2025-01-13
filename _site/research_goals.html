@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>User Research Methods – Research Methods in Product Design</title>
+<title>Developing Research Goals – Methods</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -40,7 +38,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-8e0115ac851389d5f4bca2ea0a75eb9d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-6bd9cfa162949bde0a231f530c97869d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -68,68 +66,7 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-<script src="site_libs/quarto-diagram/mermaid.min.js"></script>
-<script src="site_libs/quarto-diagram/mermaid-init.js"></script>
-<link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -143,9 +80,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">
-      Research Methods in Product Design
-      </li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./research_goals.html">Developing Research Goals</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -160,7 +95,7 @@ window.Quarto = {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">Research Methods in Product Design</a> 
+      <a href="./">Methods</a> 
     </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -174,6 +109,12 @@ window.Quarto = {
   <div class="sidebar-item-container"> 
   <a href="./about.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">About</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./research_goals.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Developing Research Goals</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
@@ -203,9 +144,10 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#organisation" id="toc-organisation" class="nav-link active" data-scroll-target="#organisation">Organisation</a></li>
-  <li><a href="#who-is-this-site-for" id="toc-who-is-this-site-for" class="nav-link" data-scroll-target="#who-is-this-site-for">Who is this site for?</a></li>
-  <li><a href="#methods" id="toc-methods" class="nav-link" data-scroll-target="#methods">Methods</a></li>
+  <li><a href="#variations" id="toc-variations" class="nav-link active" data-scroll-target="#variations">Variations</a></li>
+  <li><a href="#resources-required" id="toc-resources-required" class="nav-link" data-scroll-target="#resources-required">Resources Required</a></li>
+  <li><a href="#when-to-use" id="toc-when-to-use" class="nav-link" data-scroll-target="#when-to-use">When to Use</a></li>
+  <li><a href="#planning-questions-to-be-answered" id="toc-planning-questions-to-be-answered" class="nav-link" data-scroll-target="#planning-questions-to-be-answered">Planning Questions To Be Answered</a></li>
   </ul>
 </nav>
     </div>
@@ -214,7 +156,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">User Research Methods</h1>
+<h1 class="title">Developing Research Goals</h1>
 </div>
 
 
@@ -231,101 +173,71 @@ window.Quarto = {
 </header>
 
 
-<p>Welcome to Research Methods!</p>
-<p>This is a repository of tools, techniques, approaches used in the pursuit of understanding users from the point of view of designing appropriate technology. This site could be the place to discover different means to achieving your research goals, or consider the pros and cons of possible approaches. Where relevant, I’ve also included lots of background about how each method was pioneered— I believe this adds valuable context to the practitioner in being able to adapt methods to their purposes. It’s also in appreciation of inter-disciplinary thinking and a nod to the contributions of researchers in fields such as psychology, medicine, ergonomics, and cognitive sciences.</p>
-<section id="organisation" class="level2">
-<h2 class="anchored" data-anchor-id="organisation">Organisation</h2>
-<p>Projects and teams may be set up in unique ways, but for the purpose of organising the topics on this website, I use the following representation of a typical research cycle.</p>
-<div class="cell" data-layout-align="default">
-<div class="cell-output-display">
-<div>
-<p></p><figure class="figure"><p></p>
-<div>
-<pre class="mermaid mermaid-js">---
-title: Research Lifecycle
----
-graph TB
-  A(Discovery) --&gt; B(Research Planning)
-  B --&gt; C(Data Collection)
-  C --&gt; D(Analysis)
-  D --&gt; E(Synthesis/Insights)
-  E --&gt; F(Product Strategy)
-</pre>
-</div>
-<p></p></figure><p></p>
-</div>
-</div>
-</div>
-</section>
-<section id="who-is-this-site-for" class="level2">
-<h2 class="anchored" data-anchor-id="who-is-this-site-for">Who is this site for?</h2>
-<p>To summarize, this compilation of research methods is for:</p>
+<p>Transforming business objectives and product strategies into clear, actionable research questions and hypotheses that drive meaningful user research outcomes.</p>
+<p>This is an early step in bridging the gap between business or program objectives and research activities. At this stage, we transform high-level organizational goals into specific, measurable research objectives and testable hypotheses. It employs a structured approach to ensure research efforts directly address business needs while maintaining focus on user-centered outcomes.</p>
+<p>The method draws from both scientific methodology and business strategy frameworks, incorporating elements of OKR (Objectives and Key Results) planning and hypothesis-driven development. It emphasizes collaborative goal-setting that aligns stakeholder needs with research capabilities and resources.</p>
+<p>Research Goal Development typically occurs at the beginning of the research planning process but can be revisited throughout the project life cycle as new insights emerge or business priorities shift.</p>
+<p>Typical Activities:</p>
 <ul>
-<li><p>product teams</p></li>
-<li><p>user researchers on product teams</p></li>
-<li><p>better cross-functional communication</p></li>
-<li><p>students of product design and management</p></li>
-<li><p>and educators, to use in support of their design curricula</p></li>
+<li><p>Alignment between business objectives and research goals</p></li>
+<li><p>SMART criteria application (Specific, Measurable, Achievable, Relevant, Time-bound)</p></li>
+<li><p>Hypothesis-driven approach to goal formation</p></li>
+<li><p>Iterative refinement process</p></li>
+<li><p>Stakeholder consensus building</p></li>
+<li><p>Clear success metrics definition</p></li>
+</ul>
+<section id="variations" class="level3">
+<h3 class="anchored" data-anchor-id="variations">Variations</h3>
+<ul>
+<li><p>Quick Goals - Rapid goal-setting for time-sensitive research</p></li>
+<li><p>Strategic Goals - Long-term research agenda development</p></li>
+<li><p>Hypothesis Mapping - Focus on assumption testing and validation</p></li>
+<li><p>Impact Mapping - Goals linked directly to business metrics</p></li>
 </ul>
 </section>
-<section id="methods" class="level2">
-<h2 class="anchored" data-anchor-id="methods">Methods</h2>
-
+<section id="resources-required" class="level3">
+<h3 class="anchored" data-anchor-id="resources-required">Resources Required</h3>
+<ul>
+<li><p>Team Composition</p>
+<ul>
+<li><p>Research lead</p></li>
+<li><p>Product stakeholders</p></li>
+<li><p>Business stakeholders</p></li>
+<li><p>Technical stakeholders (as needed)</p></li>
+</ul></li>
+<li><p>Tools and Templates</p>
+<ul>
+<li><p>Goal framework template</p></li>
+<li><p>Hypothesis statement template</p></li>
+<li><p>Research question matrix</p></li>
+<li><p>Impact assessment worksheet</p></li>
+</ul></li>
+</ul>
+</section>
+<section id="when-to-use" class="level3">
+<h3 class="anchored" data-anchor-id="when-to-use">When to Use</h3>
+<ul>
+<li><p>Starting new research initiatives</p></li>
+<li><p>Quarterly research planning</p></li>
+<li><p>Product strategy shifts</p></li>
+<li><p>New feature development</p></li>
+<li><p>Addressing identified knowledge gaps</p></li>
+<li><p>Validating business assumptions</p></li>
+</ul>
+</section>
+<section id="planning-questions-to-be-answered" class="level3">
+<h3 class="anchored" data-anchor-id="planning-questions-to-be-answered">Planning Questions To Be Answered</h3>
+<ul>
+<li><p>What are our critical knowledge gaps?</p></li>
+<li><p>Which assumptions need validation?</p></li>
+<li><p>How will research impact decision-making?</p></li>
+<li><p>What metrics indicate success?</p></li>
+</ul>
 
 
 </section>
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-file-modified-sort="1736811061435" data-listing-reading-time-sort="3" data-listing-word-count-sort="423">
-<div class="thumbnail">
-<p><a href="./about.html" class="no-external"></a></p><a href="./about.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./about.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./about.html" class="no-external">About</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./about.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./about.html" class="no-external">This website was created and maintained by Chandni, a design researcher living in New York.</a>
-</div>
-</div>
-<div class="metadata">
-<p><a href="./about.html" class="no-external"></a></p><a href="./about.html" class="no-external">
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-listing-file-modified-sort="1736797068834" data-listing-reading-time-sort="2" data-listing-word-count-sort="366">
-<div class="thumbnail">
-<p><a href="./Planning/research_goals.html" class="no-external"></a></p><a href="./Planning/research_goals.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./Planning/research_goals.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./Planning/research_goals.html" class="no-external">Developing Research Goals</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./Planning/research_goals.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./Planning/research_goals.html" class="no-external">Transforming business objectives and product strategies into clear, actionable research questions and hypotheses that drive meaningful user research outcomes.</a>
-</div>
-</div>
-<div class="metadata">
-<p><a href="./Planning/research_goals.html" class="no-external"></a></p><a href="./Planning/research_goals.html" class="no-external">
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

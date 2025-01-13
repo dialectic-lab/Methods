@@ -13,10 +13,12 @@ To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 ```{r}
 #| message: false
 #| warning: false
-# library(ggplot2)
 library(tidyverse)
-starwars %>% 
+library(plotly)
+chart <- starwars %>% 
   filter(mass < 500) %>% 
   ggplot() +
   geom_point(aes(height, mass)) 
+
+ggplotly(chart)
 ```

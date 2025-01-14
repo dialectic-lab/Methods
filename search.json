@@ -2,15 +2,60 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Methods",
+    "title": "User Research Methods",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2\n\n\n\nlibrary(tidyverse)\nlibrary(plotly)\nchart &lt;- starwars %&gt;% \n  filter(mass &lt; 500) %&gt;% \n  ggplot() +\n  geom_point(aes(height, mass)) \n\nggplotly(chart)"
+    "text": "Welcome to Research Methods!\nThis is a repository of tools, techniques, approaches used in the pursuit of understanding users from the point of view of designing appropriate technology. This site could be the place to discover different means to achieving your research goals, or consider the pros and cons of possible approaches. Where relevant, I’ve also included lots of background about how each method was pioneered— I believe this adds valuable context to the practitioner in being able to adapt methods to their purposes. It’s also in appreciation of inter-disciplinary thinking and a nod to the contributions of researchers in fields such as psychology, medicine, ergonomics, and cognitive sciences."
+  },
+  {
+    "objectID": "index.html#organisation",
+    "href": "index.html#organisation",
+    "title": "User Research Methods",
+    "section": "Organisation",
+    "text": "Organisation\nProjects and teams may be set up in unique ways, but for the purpose of organising the topics on this website, I use the following representation of a typical research cycle.\n\n\n\n\n\n---\ntitle: Research Lifecycle\n---\ngraph TB\n  A(Discovery) --&gt; B(Research Design)\n  B --&gt; C(Data Collection)\n  C --&gt; D(Analysis)\n  D --&gt; E(Synthesis/Insights)\n  E --&gt; F(Product Strategy)"
+  },
+  {
+    "objectID": "index.html#who-is-this-site-for",
+    "href": "index.html#who-is-this-site-for",
+    "title": "User Research Methods",
+    "section": "Who is this site for?",
+    "text": "Who is this site for?\nTo summarize, this compilation of research methods is for:\n\nproduct teams\nuser researchers on product teams\nbetter cross-functional communication\nstudents of product design and management\nand educators, to use in support of their design curricula"
+  },
+  {
+    "objectID": "index.html#methods",
+    "href": "index.html#methods",
+    "title": "User Research Methods",
+    "section": "Methods",
+    "text": "Methods"
+  },
+  {
+    "objectID": "2. Research Design/research_goals.html",
+    "href": "2. Research Design/research_goals.html",
+    "title": "Developing Research Goals",
+    "section": "",
+    "text": "Transforming business objectives and product strategies into clear, actionable research questions and hypotheses that drive meaningful user research outcomes.\nThis is an early step in bridging the gap between business or program objectives and research activities. At this stage, we transform high-level organizational goals into specific, measurable research objectives and testable hypotheses. It employs a structured approach to ensure research efforts directly address business needs while maintaining focus on user-centered outcomes.\nThe method draws from both scientific methodology and business strategy frameworks, incorporating elements of OKR (Objectives and Key Results) planning and hypothesis-driven development. It emphasizes collaborative goal-setting that aligns stakeholder needs with research capabilities and resources.\nResearch Goal Development typically occurs at the beginning of the research planning process but can be revisited throughout the project life cycle as new insights emerge or business priorities shift.\nTypical Activities:\n\nAlignment between business objectives and research goals\nSMART criteria application (Specific, Measurable, Achievable, Relevant, Time-bound)\nHypothesis-driven approach to goal formation\nIterative refinement process\nStakeholder consensus building\nClear success metrics definition\n\n\nVariations\n\nQuick Goals - Rapid goal-setting for time-sensitive research\nStrategic Goals - Long-term research agenda development\nHypothesis Mapping - Focus on assumption testing and validation\nImpact Mapping - Goals linked directly to business metrics\n\n\n\nResources Required\n\nTeam Composition\n\nResearch lead\nProduct stakeholders\nBusiness stakeholders\nTechnical stakeholders (as needed)\n\nTools and Templates\n\nGoal framework template\nHypothesis statement template\nResearch question matrix\nImpact assessment worksheet\n\n\n\n\nWhen to Use\n\nStarting new research initiatives\nQuarterly research planning\nProduct strategy shifts\nNew feature development\nAddressing identified knowledge gaps\nValidating business assumptions\n\n\n\nPlanning Questions To Be Answered\n\nWhat are our critical knowledge gaps?\nWhich assumptions need validation?\nHow will research impact decision-making?\nWhat metrics indicate success?",
+    "crumbs": [
+      "2. Research Design",
+      "Developing Research Goals"
+    ]
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "This website was created and maintained by Chandni, a design researcher living in New York.",
+    "crumbs": [
+      "About"
+    ]
+  },
+  {
+    "objectID": "about.html#background",
+    "href": "about.html#background",
+    "title": "About",
+    "section": "Background",
+    "text": "Background\nThis project has had multiple starting points, and I’m bringing them together in hope of creating something useful.\n\nDesign process documentation at Aspire:\nAs a design manager in a growing product team, I helped create process documentation when we felt the need to establish some processes for sanity. It’s not easy to describe a design process, but we could set benchmarks, standards, and created a guide to help set clear expectations for team members. The intended audience for this document was the entire product team, from leadership to product designers, project managers and developers. We clarified hand-off requirements, created templates for gathering requirements and insights, and helped create a project management set up. This worked at a time when we had some clarity on the roadmap for a few quarters ahead of us, and our goal was to build the highest quality experiences possible. It was a living document meant to evolve with the team and product.\nMy teaching experience:\nAlthough I never taught research methods as a standalone course, I used an earlier skeletal version of this website as a supporting document for students in my design studios. It started as a glossary of terms, then I added more customised explainers, case studies, and examples. As the list grew, it needed to be organised into something more meaningful.\nHCI research:\nMy own academic training comes from a research space that is best described as technical HCI, with strong influence of evidence-based design. It was a combination of generic methods applicable to any design discipline, as well as methods specific to the context of human-computer interaction design.\nResearch in the social sciences:\nI had a recent refresher in research methods from the course Data, Economics and Design of Policy, offered by MIT’s Department of Economics through the MITx platform. I completed a set of courses in the last quarter of 2024 and now have an even broader set of interests and skills. This website does not cover economics and policy research in general, but I have included concepts from Randomised Control Trials that build on prevailing practices in RCT in design.\n\nTo create this website, I had to trim the scope a little. I might be able to produce variations of this resource for different domains and applications, but this first version is designed for product researchers, or user researches on product teams.",
+    "crumbs": [
+      "About"
+    ]
   }
 ]

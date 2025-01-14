@@ -12,6 +12,8 @@ listing: default
 
 Welcome to Research Methods! 
 
+
+
 This is a repository of tools, techniques, approaches used in the pursuit of understanding users from the point of view of designing appropriate technology. This site could be the place to discover different means to achieving your research goals, or consider the pros and cons of possible approaches. Where relevant, I've also included lots of background about how each method was pioneered— I believe this adds valuable context to the practitioner in being able to adapt methods to their purposes. It's also in appreciation of inter-disciplinary thinking and a nod to the contributions of researchers in fields such as psychology, medicine, ergonomics, and cognitive sciences.
 
 ## Organisation
